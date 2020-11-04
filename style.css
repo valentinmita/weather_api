@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  height: 75px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin: 50px;
+}
+
+form button {
+  height: 75px;
+  display: flex;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  padding: 20px;
+  background: white;
+}
+
+form input {
+  height: 75px;
+  font-size: 30px;
+  background: white;
+  padding: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  border-bottom-left-radius: 16px;
+}
+
+.fas {
+  color: black;
+}
+
+main {
+  width: 600px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.location .city {
+  justify-content: center;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.current .temptot {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 102px;
+  margin: 20px 0px;
+}
+
+.current .weather {
+  justify-content: center;
+  font-size: 52px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.minmaxtot {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 42px;
+}
+.imagine {
+}
+
+.colonne {
+  justify-content: center;
+  display: flex;
+  border: none;
+}
+
+.buttone {
+  border: 1px solid #3498db;
+  outline: none;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.one,
+.two,
+.fb,
+.ig,
+.gh {
+  color: white;
+  border-radius: 16px;
+}
+
+.one:hover,
+.two:hover {
+  color: #fff;
+}
+
+.buttone::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.one::before,
+.two::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.one:hover::before,
+.two:hover::before {
+  height: 180%;
+}
+
+.fb::before,
+.ig::before,
+.gh:hover::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.fb:hover::before,
+.ig:hover::before,
+.gh:hover::before {
+  height: 180%;
+}
+
+.social {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testo_footer {
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  color: white;
+}
+
+.starto {
+  height: 30px;
+  width: 30px;
+}

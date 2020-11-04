@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "app-wrap">
+        <form class="form">
+        <input type="text" autocomplete="off" class="search-box" placeholder="search for a city">
+
+        <button class ="prova"><i class="fas fa fa-search"></i></button>
+    </form>
+    <main>
+        <section class="location">
+            <div class= "city"> city </div>
+            <div class="imagine"><img src="icons/unknown.png" alt=""></div>
+        </section>
+       
+        <div class="current">
+            <div class="temptot">
+            <div class="temp"> 15 </div>
+            <span>°C</span>
+            </div>
+        <div class = "weather"> sunny</div>
+        <div class="minmaxtot">
+            <div class="orario">orariodata</div>
+        </div>
+        </div>
+    </main>
+    
+<div class="colonne">
+    <button class= "buttone one" onclick = "cercacita(city)"> oggi </button>
+    <button class= "buttone two" onclick = "cercacita2(city)">domani </button>
+
+</div>
+    </div>
+
+<footer>
+    <div class = "social"> 
+      <button class ="buttone fb">  <a class="logo" href= "https://www.facebook.com/valentin.mita/" >
+        <i class = "fab fa fa-facebook"></i>
+       </a></button>
+      <button class ="buttone ig"><a class="logo" href= "https://www.instagram.com/valentinmita/" >
+        <i class = "fab fa fa-instagram"></i>
+       </a></button>
+      <button class ="buttone gh"><a class="logo" href= "https://github.com/valentinmita" >
+        <i class = "fab fa fa-github"></i>
+       </a></button>
+    </div>
+    <p class="testo_footer">
+       Made by Valentin Mita for   <button class ="buttone one "><a class="logo" href= "https://www.start2impact.it/?gclid=CjwKCAiAv4n9BRA9EiwA30WND01VfFnZSoiuowM1l34JeZIRn_i8ecJDHwRxIiqgD-ME1EcMPmebvxoCVCAQAvD_BwE" >
+        <img src = "startto.svg" class="starto"></i>
+       </a></button>
+         </p>
+</footer>
+    <script src="https://kit.fontawesome.com/bacb0be059.js" crossorigin="anonymous"></script>
+    <script src="main1.js"></script>
+    
+</body>
+
+</html>
