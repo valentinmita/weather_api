@@ -1,3 +1,3 @@
 # weather_api
-sito web per msortrare il meteo
+sito web per mosrare il meteo
 per poterla utilizzare bisogna avere la propria key
